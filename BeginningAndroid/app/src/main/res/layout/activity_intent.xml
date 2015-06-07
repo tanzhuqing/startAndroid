@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.beginningandroid.Activitys.IntentActivity">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Web Browser"
+        android:onClick="onClickWebBrowser"
+        android:id="@+id/btn_webbrowser"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Make Calls"
+        android:id="@+id/btn_makecalls"
+        android:onClick="onClickMakeCalls"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Map"
+        android:id="@+id/btn_showMap"
+        android:onClick="onClickShowMap"/>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.beginningandroid" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Activitys.Activity101Activity"
+            android:label="@string/title_activity_activity101" >
+        </activity>
+        <activity
+            android:name=".Activitys.DialogActivity"
+            android:label="@string/title_activity_dialog" >
+        </activity>
+        <activity
+            android:name=".Activitys.UsingIntent"
+            android:label="@string/title_activity_using_intent" >
+        </activity>
+        <activity
+            android:name=".Activitys.SecondActivity"
+            android:label="@string/title_activity_second" >
+            <intent-filter>
+                <action android:name="com.example.administrator.beginningandroid.Activitys.SecondActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activitys.PassingDataActivity"
+            android:label="@string/title_activity_passing_data" >
+        </activity>
+        <activity
+            android:name=".Activitys.SActivity"
+            android:label="@string/title_activity_s" >
+            <intent-filter>
+                <action android:name="com.example.administrator.beginningandroid.Activitys.SActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activitys.FragmentActivity"
+            android:label="@string/title_activity_fragment" >
+        </activity>
+        <activity
+            android:name=".Activitys.IntentActivity"
+            android:label="@string/title_activity_intent" >
+        </activity>
+        <activity
+            android:name=".Activitys.AutoCompleteTextViewTest"
+            android:label="@string/title_activity_auto_complete_text_view" >
+        </activity>
+        <activity
+            android:name=".Activitys.SpinnerViewTest"
+            android:label="@string/title_activity_spinner_view_test" >
+        </activity>
+        <activity
+            android:name=".Activitys.GalleryTesst"
+            android:label="@string/title_activity_gallery_tesst" >
+        </activity>
+        <activity
+            android:name=".Activitys.ImageSwitcherTest"
+            android:label="@string/title_activity_image_switcher_test" >
+        </activity>
+    </application>
+
+</manifest>
